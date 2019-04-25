@@ -9,7 +9,9 @@ RUN \
     apt-get install -y \
         handbrake-cli \
         ffmpeg \
-        mediainfo 
+        mediainfo \
+        vim \
+        bc
 
 #
 # Clean up as linuxserver/plex does
